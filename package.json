@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint *.js lib/**/*.js"
+    
   },
   "keywords": [],
   "author": "",
@@ -12,5 +14,8 @@
   "dependencies": {
     "marked": "^16.1.2",
     "yargs": "^18.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.33.0"
   }
 }
