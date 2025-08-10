@@ -1,11 +1,17 @@
 CSS:
+
 ```html
 <style>
-pre.terminal, pre.terminal code { background:#000; color:#fff; }
+  pre.terminal,
+  pre.terminal code {
+    background: #000;
+    color: #fff;
+  }
 </style>
 ```
 
 ### 方法D: 直接 HTML を書く (確実・局所)
+
 ```html
 <pre class="terminal" style="background:#000;color:#fff;padding:10px;"><code>git status
 git log --oneline
@@ -18,7 +24,10 @@ git log --oneline
 
 ```html
 <style>
-pre code.language-bash { background:#000; color:#fff; }
+  pre code.language-bash {
+    background: #000;
+    color: #fff;
+  }
 </style>
 ```
 
@@ -31,7 +40,11 @@ git revert 1a2b3c4d
 
 ```html
 <style>
-pre.terminal, pre.terminal code { background:#000; color:#fff; }
+  pre.terminal,
+  pre.terminal code {
+    background: #000;
+    color: #fff;
+  }
 </style>
 ```
 
