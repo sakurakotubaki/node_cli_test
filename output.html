@@ -1,0 +1,31 @@
+<p>CSS:</p>
+<pre><code class="language-html">&lt;style&gt;
+pre.terminal, pre.terminal code { background:#000; color:#fff; }
+&lt;/style&gt;
+</code></pre>
+<h3>方法D: 直接 HTML を書く (確実・局所)</h3>
+<pre><code class="language-html">&lt;pre class=&quot;terminal&quot; style=&quot;background:#000;color:#fff;padding:10px;&quot;&gt;&lt;code&gt;git status
+git log --oneline
+&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
+<hr>
+<h2>例 (推奨: 方法B)</h2>
+<pre><code class="language-html">&lt;style&gt;
+pre code.language-bash { background:#000; color:#fff; }
+&lt;/style&gt;
+</code></pre>
+<pre><code class="language-bash">git log --oneline
+git revert 1a2b3c4d
+</code></pre>
+<h2>例 (クラス方式: 方法C)</h2>
+<pre><code class="language-html">&lt;style&gt;
+pre.terminal, pre.terminal code { background:#000; color:#fff; }
+&lt;/style&gt;
+</code></pre>
+<pre><code class="language-bash">git revert &lt;commit-hash&gt;
+</code></pre>
+<h2>例 (HTML 直書き: 方法D)</h2>
+<pre class="terminal" style="background:#000;color:#fff;padding:10px;"><code>git revert -m 1 abcdef0
+</code></pre>
+
+<p>// ...end</p>
