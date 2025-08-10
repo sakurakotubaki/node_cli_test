@@ -1,0 +1,11 @@
+{
+  "workbench.colorCustomizations": {
+    "titleBar.activeBackground": "#0F4C75", // 落ち着いた深めのブルー
+    "titleBar.activeForeground": "#FFFFFF", // 文字は白で視認性確保
+    "activityBar.background": "#1B262C", // ほんの少し暗い青黒で差異
+    "activityBar.foreground": "#EEEEEE", // 柔らかい白
+    "activityBar.inactiveForeground": "#A0B4C0", // 非アクティブは弱め
+    "activityBarBadge.background": "#007ACC", // VSCode標準系の青で統一
+    "activityBarBadge.foreground": "#FFFFFF" // バッジ文字
+  }
+}
